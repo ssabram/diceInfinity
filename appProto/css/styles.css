@@ -10940,6 +10940,12 @@ p.lead {
   background-color: #bd5d38;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
