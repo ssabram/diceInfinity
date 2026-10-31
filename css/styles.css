@@ -894,6 +894,30 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.image-gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.image-gallery img {
+    height: 250px;
+    width: auto;
+    display: block;
+}
+
+.image-gallery figcaption {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 1px;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
